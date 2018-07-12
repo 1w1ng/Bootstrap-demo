@@ -1,0 +1,92 @@
+/* css reset */
+*{
+  padding: 0;
+  margin: 0;
+}
+a{
+  text-decoration: none;
+}
+ul,ol{
+  list-style: none;
+}
+body{
+  color:#000;
+}
+
+/* 顶部 */
+.navbar-content ul{
+  margin-top: 0;
+}
+
+.carousel{
+  margin: 50px 0 0 0;
+}
+.carousel img{
+  margin: 0 auto;
+}
+
+/* 内容 */
+.tab{
+  margin: 20px 0;
+}
+.tab .tab-title{
+  font-size: 20px;
+  text-align: center;
+  color:#4072cb;
+}
+.tab .tab-p{
+  font-size: 15px;
+  text-align: center;
+  margin: 10px 0;
+}
+.tab .media-heading{
+  margin: 10px 0;
+}
+.tab .media-through{
+  text-decoration: line-through;
+  color:#777;
+}
+.tab .col{
+  padding: 20px;
+}
+
+.tab-2{
+  background: #eee;
+  padding: 60px 20px;
+  text-align: center;
+}
+.center-block{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.clearfix{
+  content: '';
+  display: block;
+  clear: both;
+}
+.tab-3{
+  padding: 60px 20px;
+  text-align: center;
+}
+
+
+footer{
+  background: #666;
+  border-top: 1px solid #ccc;
+  padding: 15px;
+  text-align: center;
+  color: #fff;
+}
+
+
+@media(min-width:768px){
+  .tab2-text{
+    float: left;
+  }
+  .tab2-img{
+    float: right;
+  }
+}
+
+
